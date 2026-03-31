@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delux Limo Trans Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Delux Limo Trans Group</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#fleet">Fleet</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#booking" class="btn">Book Now</a>
+</header>
+
+<section class="hero">
+  <div class="overlay">
+    <h1>Luxury Chauffeur Service</h1>
+    <p>Airport • Corporate • VIP Travel</p>
+    <a href="#booking" class="btn">Book Your Ride</a>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">Airport Transportation</div>
+    <div class="card">Corporate Travel</div>
+    <div class="card">Hourly Chauffeur</div>
+    <div class="card">Special Events</div>
+  </div>
+</section>
+
+<section id="fleet">
+  <h2>Our Luxury Fleet</h2>
+  <div class="grid">
+    <div class="card">Lincoln Navigator</div>
+    <div class="card">Cadillac Escalade</div>
+    <div class="card">GMC Yukon</div>
+  </div>
+</section>
+
+<section id="booking">
+  <h2>Book Your Ride</h2>
+  <form onsubmit="sendBooking(event)">
+    <input type="text" placeholder="Pickup Location" required>
+    <input type="text" placeholder="Drop Location" required>
+    <input type="datetime-local" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <button type="submit">Confirm Booking</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 (414) 333-6275</p>
+  <p>📧 info@deluxlimotransgroup.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Delux Limo Trans Group</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
